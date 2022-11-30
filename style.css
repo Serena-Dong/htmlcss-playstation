@@ -18,6 +18,9 @@ a{
 .logo-navbar-img{
     max-width: 100px
 }
+.img-none{
+    display: none;
+}
 /* BUTTONS */
 /* SECTION */
 
@@ -70,6 +73,9 @@ section{
     }
     .thumbnail-products {
         justify-content: center;
+    }
+    .img-none{
+        display: block;
     }
 }
 
