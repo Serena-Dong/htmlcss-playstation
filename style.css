@@ -40,13 +40,17 @@ section{
     background-image: url('./img/jumbo-bg.png');
 
 }
+#secondary-jumbo{
+    height: 600px;
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+}
 .jumbotron{
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .title{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
