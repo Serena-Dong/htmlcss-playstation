@@ -1,0 +1,72 @@
+
+[class^="container"]{
+    min-height: 40px;
+}
+
+.row{
+    min-height: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* IMG */
+.logo-header-img{
+    width: 100px;
+}
+.logo-navbar-img{
+    max-width: 100px
+}
+/* BUTTONS */
+/* SECTION */
+
+section{
+    margin-bottom: 2rem;
+}
+
+/* HEADER */
+.logo{
+    height: 40px;
+}
+
+.navbar{
+    height: 80px;
+}
+
+/* JUMBOTRON */
+#main-jumbo{
+    height: 600px;
+    background-image: url('./img/jumbo-bg.png');
+
+}
+.jumbotron{
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 3rem;
+}
+
+
+/* THUMBNAIL */
+
+
+
+/* FOOTER */
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 992px) {
+    .thumbnail-products > *{
+        margin: 1rem;
+    }
+    .thumbnail-products {
+        justify-content: center;
+    }
+}
+
+
