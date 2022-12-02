@@ -1,14 +1,22 @@
-
 [class^="container"]{
     min-height: 40px;
 }
-
+/* UTILS */
 .row{
     min-height: 50px;
+}
+ul li{
+    list-style: none;
 }
 a{
     text-decoration: none;
     color: white;
+}
+section{
+    margin-bottom: 2rem;
+}
+.title{
+    font-size: 2rem;
 }
 
 /* IMG */
@@ -18,21 +26,23 @@ a{
 .logo-navbar-img{
     max-width: 100px
 }
+.globe{
+    width: 20px;
+}
+.ps{
+    width: 100px;
+}
+.sie{
+    width: 150px;
+}
 .img-none{
     display: none;
-}
-/* BUTTONS */
-/* SECTION */
-
-section{
-    margin-bottom: 2rem;
 }
 
 /* HEADER */
 .logo{
     height: 40px;
 }
-
 .navbar{
     height: 80px;
 }
@@ -52,18 +62,14 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.title{
-    font-size: 2rem;
-}
-
-
-/* THUMBNAIL */
 
 
 
 /* FOOTER */
 
-
+#links .col-12 ul li{
+    padding-bottom: 0.5rem;
+}
 
 /* RESPONSIVE */
 
