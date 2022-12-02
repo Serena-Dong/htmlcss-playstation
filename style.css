@@ -24,6 +24,9 @@ section{
 .text-blue{
     color: #00439c;
 }
+.border-blue{
+    border-bottom: 3px solid #00439c;
+}
 /* IMG */
 .logo-header-img{
     width: 100px;
@@ -111,8 +114,8 @@ header{
 
 /* HOVER */
 
-a::after{
-    color: white;
-    border-color: white;
+a:hover{
+    color: rgb(180, 180, 180);
+    border-color: rgb(181, 181, 181);
 }
 
