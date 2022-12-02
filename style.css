@@ -18,7 +18,12 @@ section{
 .title{
     font-size: 2rem;
 }
-
+.bg-blue{
+    background-color: #00439c;
+}
+.text-blue{
+    color: #00439c;
+}
 /* IMG */
 .logo-header-img{
     width: 100px;
