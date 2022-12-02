@@ -28,9 +28,6 @@ section{
 .logo-header-img{
     width: 100px;
 }
-.logo-navbar-img{
-    max-width: 100px
-}
 .globe{
     width: 20px;
 }
@@ -45,11 +42,24 @@ section{
 }
 
 /* HEADER */
+header{
+    position: sticky;
+    top: 0;
+}
 .logo{
     height: 40px;
 }
-.navbar{
+.navbar, .nav-actions{
     height: 80px;
+}
+.nav-actions ul > *{
+    margin-left: 15px;
+}
+.nav-actions ul li > *{
+    color: black;
+}
+.nav-actions{
+    display: none;
 }
 
 /* JUMBOTRON */
@@ -89,5 +99,20 @@ section{
         display: block;
     }
 }
+@media screen and (min-width: 1400px){
+    .bars{
+        display: none;
+    }
+    .nav-actions{
+        display: flex;
+    }
+    
+}
 
+/* HOVER */
+
+a::after{
+    color: white;
+    border-color: white;
+}
 
