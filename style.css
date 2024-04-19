@@ -1,121 +1,143 @@
-[class^="container"]{
+[class^="container"] {
     min-height: 40px;
 }
+
 /* UTILS */
-.row{
+.row {
     min-height: 50px;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-section{
+
+section {
     margin-bottom: 2rem;
 }
-.title{
+
+.title {
     font-size: 2rem;
 }
-.bg-blue{
+
+.bg-blue {
     background-color: #00439c;
 }
-.text-blue{
+
+.text-blue {
     color: #00439c;
 }
-.border-blue{
+
+.border-blue {
     border-bottom: 3px solid #00439c;
-}
-/* IMG */
-.logo-header-img{
-    width: 100px;
-}
-.globe{
-    width: 20px;
-}
-.ps{
-    width: 100px;
-}
-.sie{
-    width: 150px;
-}
-.img-none{
-    display: none;
 }
 
 /* HEADER */
-header{
+header {
     position: sticky;
     top: 0;
 }
-.logo{
+
+.logo {
     height: 40px;
 }
-.navbar, .nav-actions{
+
+.navbar,
+.nav-actions {
     height: 80px;
 }
-.nav-actions ul > *{
+
+.nav-actions ul>* {
     margin-left: 15px;
 }
-.nav-actions ul li > *{
+
+.nav-actions ul li>* {
     color: black;
 }
-.nav-actions{
+
+.nav-actions {
+    display: none;
+}
+
+/* FOOTER */
+
+#links .col-12 ul li {
+    padding-bottom: 0.5rem;
+}
+
+/* IMG */
+.logo-header-img {
+    width: 100px;
+}
+
+.globe {
+    width: 20px;
+}
+
+.ps {
+    width: 100px;
+}
+
+.sie {
+    width: 150px;
+}
+
+.img-none {
     display: none;
 }
 
 /* JUMBOTRON */
-#main-jumbo{
+#main-jumbo {
     height: 600px;
     background-image: url('./img/jumbo-bg.png');
 
 }
-#secondary-jumbo{
+
+#secondary-jumbo {
     height: 600px;
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
-.jumbotron{
+
+.jumbotron {
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-
-
-/* FOOTER */
-
-#links .col-12 ul li{
-    padding-bottom: 0.5rem;
-}
-
 /* RESPONSIVE */
 
 @media screen and (min-width: 992px) {
-    .thumbnail-products > *{
+    .thumbnail-products>* {
         margin: 1rem;
     }
+
     .thumbnail-products {
         justify-content: center;
     }
-    .img-none{
+
+    .img-none {
         display: block;
     }
 }
-@media screen and (min-width: 1400px){
-    .bars{
+
+@media screen and (min-width: 1400px) {
+    .bars {
         display: none;
     }
-    .nav-actions{
+
+    .nav-actions {
         display: flex;
     }
-    
+
 }
 
 /* HOVER */
 
-a:hover{
+a:hover {
     color: rgb(180, 180, 180);
     border-color: rgb(181, 181, 181);
 }
-
